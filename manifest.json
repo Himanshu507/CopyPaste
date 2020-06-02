@@ -1,0 +1,25 @@
+  {
+    "name": "Plagiarism",
+    "version": "0.1",
+    "manifest_version": 2,
+    "icons": {
+    "128": "ico_128.png",
+    "64": "ico_64.png",
+    "32": "ico_32.png"
+    },
+    "description": "Check online Plagiarism!",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true	
+  },
+      
+     
+     "browser_action": {
+     "default_title": "Plagiarism!"
+ 			 },
+  	 "permissions": [
+    	"https://*/*",
+    	"http://*/*",
+    	"tabs"]
+    
+  }
